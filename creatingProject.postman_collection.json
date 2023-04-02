@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "a81104b3-6e9c-4182-8f27-c4bc200760e0",
+		"name": "creatingProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26618964"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "api.octoperf.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded;charset=UTF-8"
+					},
+					{
+						"key": "cookie",
+						"value": "slaask-token-5a5eed8e193aa4456766852b0d3bdd64=52odvpemyo6d8qux0nkjabvp47pcpgzg2l8awa8zzr; __stripe_mid=e4dda487-de2a-4cee-bf0c-688b4e7f02a96dcf15; _gid=GA1.2.227199582.1680360245; __stripe_sid=5eb01043-7fac-4af5-9077-722db530b5f8e22e7c; _ga=GA1.2.887354898.1679836813; _ga_Q0Q7BY8NRR=GS1.1.1680360242.6.1.1680361257.0.0.0"
+					},
+					{
+						"key": "origin",
+						"value": "https://api.octoperf.com"
+					},
+					{
+						"key": "referer",
+						"value": "https://api.octoperf.com/app/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-kl-ajax-request",
+						"value": "Ajax_Request"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "username=kseniawarda%40gmail.com&password=Richard21031991!!!"
+				},
+				"url": {
+					"raw": "https://api.octoperf.com/public/users/login",
+					"protocol": "https",
+					"host": [
+						"api",
+						"octoperf",
+						"com"
+					],
+					"path": [
+						"public",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
